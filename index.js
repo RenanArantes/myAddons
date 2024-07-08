@@ -7,6 +7,6 @@ const git = simpleGit({
   trimmed: false,
 });
 
-git.add("C:\teste");
+git.add("C:\teste\teste.txt");
 git.commit("Initial commit");
 git.push("origin", "main");
