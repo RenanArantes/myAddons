@@ -8,3 +8,5 @@ const git = simpleGit({
 });
 
 git.add("C:\teste");
+git.commit("Initial commit");
+git.push("origin", "main");
