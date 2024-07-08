@@ -1,4 +1,4 @@
-const simpleGit = require("simple-git");
+import simpleGit from "simple-git";
 
 const git = simpleGit({
   baseDir: process.cwd(),
@@ -7,4 +7,4 @@ const git = simpleGit({
   trimmed: false,
 });
 
-await git.addRemote("origin", "https://github.com/RenanArantes/myAddons.git");
+git.add("C:\teste");
